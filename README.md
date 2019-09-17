@@ -7,7 +7,7 @@ Pleas feel free to check out my portfolio site: [Published Portfolio Site](url t
 Pleas feel free to check out this project on GitHub: [Portfolio Site - GitHub Repo](https://github.com/EllieChen-Git/portfolio-site)
 
 ------
-## <u>Overview of Portfolio</u>
+## <u>Overview of Portfolio Site</u>
 
 ### Purpose
 
@@ -41,9 +41,7 @@ Below are the features of my portfolio website:
 
 Refer to the mood board for this site here: [Portfolio Site - Mood Board](https://www.pinterest.com.au/elliechenetc/portfolio-site/)
 
-
 - <u>Wireframes (Balsamiq)</u>
-
 
 ![Home page](./docs/wireframes/wireframe_1_home.JPG)
 
@@ -72,20 +70,14 @@ Refer to the Trello board for this site here: [Portfolio Site - Project Manageme
 - Planning & implenmentation: project management (Trello), mood board (Pinterest), wireframe (Balsamiq)
 - Deployment platform: GitHub
 
-## User Interface & User Experience: 
-- All images have an alt attribute for better accessibility
-- All contact details are fixed at the bottom of the screen, so people don't have to scroll back to home page if they want to contact me
-- Nav bar on the top to easily go through different pages
-
 ------
 
-## Future improvements
+## <u>Future improvements</u>
 - Adding an education history section
 - Designing personal logo to achieve a better personal branding effect
 - Incorporating JavaScript to achieve more functionalities and better effects 
 
 
-
-Ellie Chen @2019
+Ellie Chen ©2019
 
 

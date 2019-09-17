@@ -1,13 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>CSS Animation Fun</title>
-        <link rel="stylesheet" href="normalize.css" />
-        <link rel="stylesheet" href="styles.css" />
+        <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Ellie Chen - Portfolio (Home)</title>
+        <link rel="stylesheet" type="text/css" media="screen" href="normalize.css">
+        <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+
+<!-- Q1: naming rules for <title> on different html pages for 1 site?
+Q2: Do I need to include the above 2 link on every html pages of my site?
+Q3: Is it a good idea to convert normalize.css into a scss (then I can have every styling sheet on main.scss)? -->
+
+
     </head>
 
-    <body>
+    <body id="home">
         <div id="container">
             <nav class="small">
                 <ul>
@@ -21,8 +29,12 @@
                     <li>About Me</li>
                     <li>Blog</li>
                     <li>Contact</li>
+                    <li><a href="#contact" id="contact-link"><span class="icon solid fa-envelope">Contact</span></a></li>
                 </ul>
             </nav>
+        </div>
+        <div>
+            <i class="fas fa-user"></i>
         </div>
     </body>
 </html>

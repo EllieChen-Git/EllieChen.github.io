@@ -1,0 +1,47 @@
+@import url("https://pro.fontawesome.com/releases/v5.10.1/css/all.css");
+#home body {
+  margin: 0;
+}
+#home ul {
+  list-style: none;
+}
+#home ul li {
+  display: inline-block;
+  height: 30px;
+}
+#home .small {
+  background-color: red;
+  text-align: center;
+  display: block;
+}
+#home .large {
+  background-color: blue;
+  color: white;
+  text-align: left;
+  display: none;
+}
+#home .large:hover {
+  background-color: green;
+}
+@media screen and (min-width: 960px) {
+  #home .small {
+    display: none;
+  }
+  #home .large {
+    display: block;
+  }
+}
+
+header {
+  padding: 30px;
+  text-align: center;
+  font-size: 20px;
+}
+
+footer {
+  padding: 10px;
+  text-align: center;
+  font-size: 20px;
+}
+
+/*# sourceMappingURL=main.css.map */

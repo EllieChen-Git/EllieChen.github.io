@@ -1,0 +1,42 @@
+#home {
+    
+    body {
+        margin: 0;
+    }
+    
+        ul {
+            list-style: none;
+            
+            li {
+                display: inline-block;
+                height: 30px;
+            }
+        }
+        
+        .small {
+            background-color: red;
+            text-align: center;
+            display: block;
+        }
+        
+        .large {
+            background-color: blue;
+            color: white;
+            text-align: left;
+            display: none;
+        
+            &:hover {
+                background-color: green;
+            }
+        }
+        
+        @media screen and (min-width: 960px) {
+            .small {
+                display: none;
+            }
+            .large {
+                display: block;
+            }
+        }
+}
+
