@@ -1,0 +1,26 @@
+ul {
+    list-style: none;
+}
+ul li {
+    display: inline-block;
+    height: 30px;
+}
+.small {
+    background-color: red;
+    text-align: center;
+    display: block;
+}
+.large {
+    background-color: blue;
+    color: white;
+    text-align: right;
+    display: none;
+}
+@media screen and (min-width: 960px) {
+    .small {
+        display: none;
+    }
+    .large {
+        display: block;
+    }
+}
