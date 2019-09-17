@@ -11,36 +11,53 @@ Pleas feel free to check out this project on GitHub: [Portfolio Site - GitHub Re
 
 ### Purpose
 
-The purpose of this portfolio website is to showcase my ability in coding and web development. It can also be used as an excellent medium for the target audience to know more about me personally (my hobbies and personallities) and professionally (my previous work experiences, skills and personal projects).
+The purpose of this portfolio website is to showcase my ability in coding and web development. It can also be used as an excellent medium for the target audience to know more about me personally (my hobbies and personalities) and professionally (my previous work experiences, skills and personal projects).
 
 In addition to that, the portfolio serves as a good example to demonstrate my planning and desgining process of a website, and it is a great opportunity for me to transform what I have learned about HTML, CSS and SASS in class into a final product. If anyone is interested in knowing more, they have the access to my GitHub, LinkedIn, Medium, Resume and Emial through the website.
-
 
 ### Functionality/Features
 
 Below are the features of my portfolio website:
 
-- Responsive design (whole website) - browser and mobile friendly.
-- Fixed contact icons on the bottom of the page throughout the website - Minimise the efforts of contact me (people do not have to scroll back to home page to find my contact details)
-- Navigation bar on the top-left corner for easy access to different linked html pages
+#### Main Features
+1. 'Home' page - animation/tiger effect
+2. 'About Me' - hover effect on images
+3. 'Skills & Projects' - carousel effect on projects
+4. 'Experiences' - spinning effect on skillset pie charts
+5. 'Contact Me' - a form for people to submit message
 
-- 'Home' page - animation
-- 'About Me' page - hover effects on images
-- 'Skills & Projects' - carousel effect on projects
-- 'Experiences' - (effect to be added)
-- 'Contact Me' - a form for people to submit message to me
-
+#### Other Features
+1. Responsive design - browser and mobile friendly.
+2. Fixed contact icons on the bottom of the page - minimise the efforts to contact me (Don't have to scroll back to home page to find my contact details)
+3. Navigation bar on the top-left corner for easy access to other linked html pages
 
 ### Sitemap
 
-![Sitemap](.docs/sitemap)
+![Sitemap](./docs/sitemap.jpg)
 
-### Screenshots (to be added)
+### Screenshots
 
-- Design process: Pinterest
-- Wireframes
-- Planning Process & Project Management: Trello
+- <u>Design process (Mood board - Pinterest)</u>
 
+Refer to the mood board for this site here: [Portfolio Site - Mood Board](https://www.pinterest.com.au/elliechenetc/portfolio-site/)
+
+
+- <u>Wireframes (Balsamiq)</u>
+
+
+![Home page](./docs/wireframes/wireframe_1_home.JPG)
+
+![About Me](./docs/wireframes/wireframe_2_about_me.JPG)
+
+![Skills & Projects](./docs/wireframes/wireframe_3_skills_projects.JPG)
+
+![Experiences](./docs/wireframes/wireframe_4_experiences.JPG)
+
+![Contact Me](./docs/wireframes/wireframe_5_contact_me.JPG)
+
+- <u>Project Management (Trello)</u>
+
+Refer to the Trello board for this site here: [Portfolio Site - Project Management](https://trello.com/b/vPfF8Msm/portfolio-site)
 
 ### Target audience
 - Potential employers and recruiting agencies
@@ -50,26 +67,25 @@ Below are the features of my portfolio website:
 - people who are interested in my personal projects
 
 ### Technology Stack
-- Languages: HTML, CSS, SASS
+- Programming languages: HTML, CSS, SASS
 - Source control: git & GitHub
-- Project Management & Planning: Trello, mood board (Pinterest), wireframe (Balsamiq)
+- Planning & implenmentation: project management (Trello), mood board (Pinterest), wireframe (Balsamiq)
 - Deployment platform: GitHub
 
 ## User Interface & User Experience: 
-- All images have an alt attribute
+- All images have an alt attribute for better accessibility
 - All contact details are fixed at the bottom of the screen, so people don't have to scroll back to home page if they want to contact me
-- nav bar to easily go through different pages
+- Nav bar on the top to easily go through different pages
 
 ------
 
 ## Future improvements
 - Adding an education history section
 - Designing personal logo to achieve a better personal branding effect
-- Adding more CSS animation
-- Imcorporating JavaScript 
-
+- Incorporating JavaScript to achieve more functionalities and better effects 
 
 
 
 Ellie Chen @2019
+
 
