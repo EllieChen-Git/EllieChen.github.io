@@ -4,38 +4,42 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Ellie Chen - Portfolio (Home)</title>
-        <link rel="stylesheet" type="text/css" media="screen" href="normalize.css">
-        <link rel="stylesheet" type="text/css" media="screen" href="main.css">
-
-<!-- Q1: naming rules for <title> on different html pages for 1 site?
-Q2: Do I need to include the above 2 link on every html pages of my site?
-Q3: Is it a good idea to convert normalize.css into a scss (then I can have every styling sheet on main.scss)? -->
+        <title>Ellie Chen - Portfolio</title>
+        <link rel="stylesheet" type="text/css" media="screen" href="/styles/normalize.css">
+        <link rel="stylesheet" type="text/css" media="screen" href="/styles/main.css">
 
 
     </head>
 
     <body id="home">
-        <div id="container">
-            <nav class="small">
-                <ul>
-                    <li>Home</li>
-                    <li>Contact</li>
-                </ul>
-            </nav>
-            <nav class="large">
-                <ul>
-                    <li>Home</li>
-                    <li>About Me</li>
-                    <li>Blog</li>
-                    <li>Contact</li>
-                    <li><a href="#contact" id="contact-link"><span class="icon solid fa-envelope">Contact</span></a></li>
-                </ul>
-            </nav>
-        </div>
-        <div>
-            <i class="fas fa-user"></i>
-        </div>
+        <!-- Header -->
+        <header>
+        
+            <!-- Logo -->
+            <div id="logo">
+                <span class="image-profile"><img src="./images/profile_prank.JPG" alt="profile of Ellie" /></span>
+                <h4 id="title">Ellie</h4>
+                <p>Aspiring Deverloper</p>
+            </div>
+
+            <!-- Memu -->
+            <div class="collapsible-menu">
+                <input type="checkbox" id="menu">
+                <label for="menu"><img id="burger" src="/images/burger.png" />Menu</label>
+                <div class="menu-content">
+
+                    <ul>
+                        <li><a href="#top" id="top-link"><span class="fas fa-home"></i>Home</span></a></li>
+                        <li><a href="#about_me" id="about-link"><span class="fas fa-user"></i>About Me</span></a></li>
+                        <li><a href="#skills_projects" id="projects-link"><span class="fas fa-hammer">Skills & Projects</span></a></li>
+                        <li><a href="#experiences" id="experiences-link"><span class="fas fa-briefcase">Experiences</span></a></li>
+                        <li><a href="#contact_me" id="contact-link"><span class="fas fa-envelope">Contact</span></a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </header>
+
     </body>
 </html>
 
