@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
      
 
-body {
+main {
     display: flex;
     flex-direction: column;
 }
@@ -17,32 +17,30 @@ body {
     }
 
 .collapsible-menu {
-        background-color: rgb(255, 255, 255);
-        padding: 0px 30px;
-        border-bottom: 3px solid #CDE700;
-        box-shadow: 1px 2px 3px rgba(0,0,0,0.2);
+    flex: 1;
+    background-color: $menu;
+    padding: 30px;
 
-        ul {
-            list-style-type: none;
-            padding: 0;
-        }
+    ul {
+        list-style-type: none;
+        padding: 0;
+    }
 
-        a {
-            display:block;
-            padding: 10px;
-            text-decoration: none;
-        }
+    a {
+        display:block;
+        padding: 10px;
+        text-decoration: none;
+    }
 
-        label {
-            display: block;
-            cursor: pointer;
-    
+    label {
+        display: block;
+        cursor: pointer;
             #burger {
                 border: 0;
                 width: 50px;
                 height: 50px;
             }
-        }
+    }
     }
 
 input#menu {
@@ -61,30 +59,31 @@ input:checked ~ .menu-content {
   
     h4 {
       position: relative;
-      color: $site-brown;
+      color: $site-darker-green;
       font-weight: 600;
-      font-size: 1em;
+      font-size: 24px;
       line-height: 1em;
     }
   
     p {
       position: relative;
       display: block;
-      font-size: 0.6em;
-      color: $site-brown;
-      line-height: 1.25em;
+      font-size: 20px;
+      color: $site-darker-green;
     }
   
     .image-profile {
       display: inline-block;
       border: 0;
-      width: 80px;
-      height: 80px;
+      width: 100%;
+      height: 90px;
     }
   }     
 
 
   section {
+      flex: 4;
+      background-color: $background;
       text-align: center;
 
       p {
@@ -92,14 +91,21 @@ input:checked ~ .menu-content {
       }
   }
 
-  @media screen and (min-width: 960px) {
+
+//Media break point (always at botton to override other styles)
+  @media screen and (min-width: 960px) {   
+    main {
+        flex-direction: row;
+    }
+
     .menu-content {
         display: block;
         max-height: 100%;
         min-height: 100vw;
-   
     }
-    body {
-        flex-direction: row;
+    #burger {
+        display: none;
     }
+
+
 }
