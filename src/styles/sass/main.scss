@@ -27,7 +27,7 @@ main {
     }
 
     a {
-        display:block;
+        display: block;
         padding: 10px;
         text-decoration: none;
     }
@@ -80,8 +80,8 @@ input:checked ~ .menu-content {
     }
   }     
 
-
-  section {
+//section-container
+.section-container {
       flex: 4;
       background-color: $background;
       text-align: center;
@@ -90,6 +90,41 @@ input:checked ~ .menu-content {
           margin: 10px;
       }
   }
+
+//Fixed Social Icons bar
+.section-bottom {
+    position: fixed;
+    bottom: 0px;
+    right: 0;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+
+    a {
+        display: inline-block;
+        text-align: center;
+        padding: 16px;
+        transition: all 0.3s ease;
+        color: $site-darker-green;
+        font-size: 20px;
+
+        &:hover {
+            background-color: #000;
+            color: $site-yellow;
+          }
+      }
+
+    li {
+        display: inline;
+    }
+
+    ul {
+        list-style-type: none;
+        padding: 0;
+        }
+        
+}
+
 
 
 //Media break point (always at botton to override other styles)

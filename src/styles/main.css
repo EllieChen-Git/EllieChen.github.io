@@ -72,13 +72,41 @@ input:checked ~ .menu-content {
   height: 90px;
 }
 
-section {
+.section-container {
   flex: 4;
   background-color: #ecf1f1;
   text-align: center;
 }
-section p {
+.section-container p {
   margin: 10px;
+}
+
+.section-bottom {
+  position: fixed;
+  bottom: 0px;
+  right: 0;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.section-bottom a {
+  display: inline-block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: #1B4001;
+  font-size: 20px;
+}
+.section-bottom a:hover {
+  background-color: #000;
+  color: #FFCF34;
+}
+.section-bottom li {
+  display: inline;
+}
+.section-bottom ul {
+  list-style-type: none;
+  padding: 0;
 }
 
 @media screen and (min-width: 960px) {
