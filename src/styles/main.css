@@ -1,43 +1,18 @@
 @import url("https://pro.fontawesome.com/releases/v5.10.1/css/all.css");
 @import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
 #home body {
   margin: 0;
 }
 
-#logo {
-  position: relative;
-  margin: 1.75em 1.5em 1.5em 1.5em;
-  min-height: 48px;
-  cursor: default;
-}
-#logo h4 {
-  position: relative;
-  color: #a86233;
-  font-weight: 600;
-  font-size: 1em;
-  line-height: 1em;
-}
-#logo p {
-  position: relative;
-  display: block;
-  font-size: 0.6em;
-  color: #a86233;
-  line-height: 1.25em;
-  margin: 0.5em 0 0 0;
-}
-#logo .image-profile {
-  display: inline-block;
-  border: 0;
-  width: 80px;
-  height: 80px;
+body {
+  display: flex;
+  flex-direction: column;
 }
 
 .menu-content {
   max-height: 0;
   overflow: hidden;
   font-family: "Roboto", sans-serif;
-  padding: 0 0 0 50px;
 }
 
 .collapsible-menu {
@@ -56,11 +31,8 @@
   text-decoration: none;
 }
 .collapsible-menu label {
-  font-family: "Roboto", cursive;
-  font-size: 56px;
   display: block;
   cursor: pointer;
-  padding: 10px 0 10px 50px;
 }
 .collapsible-menu label #burger {
   border: 0;
@@ -74,6 +46,51 @@ input#menu {
 
 input:checked ~ .menu-content {
   max-height: 100%;
+}
+
+#logo {
+  position: relative;
+  min-height: 48px;
+  cursor: default;
+}
+#logo h4 {
+  position: relative;
+  color: #a86233;
+  font-weight: 600;
+  font-size: 1em;
+  line-height: 1em;
+}
+#logo p {
+  position: relative;
+  display: block;
+  font-size: 0.6em;
+  color: #a86233;
+  line-height: 1.25em;
+}
+#logo .image-profile {
+  display: inline-block;
+  border: 0;
+  width: 80px;
+  height: 80px;
+}
+
+section {
+  text-align: center;
+}
+section p {
+  margin: 10px;
+}
+
+@media screen and (min-width: 960px) {
+  .menu-content {
+    display: block;
+    max-height: 100%;
+    min-height: 100vw;
+  }
+
+  body {
+    flex-direction: row;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
