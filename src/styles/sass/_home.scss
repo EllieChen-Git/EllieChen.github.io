@@ -1,7 +1,155 @@
-#home {
+//main
+#main {
+    display: flex;
+    flex-direction: column;
+}
+
+//memu
+.menu-content {
+    max-height: 0;
+    overflow: hidden;
+    font-family: 'Roboto', sans-serif;
+}
+
+.collapsible-menu {
+    flex: 1;
+    background-color: $menu;
+    padding: 30px;
     
-    body {
-        margin: 0;
+    label {
+        display: block;
+        cursor: pointer;
+            #burger {
+                border: 0;
+                width: 50px;
+                height: 50px;
+            }
     }
 }
 
+input#menu {
+    display: none;
+}
+
+input:checked ~ .menu-content {
+    max-height: 100%;
+}
+
+
+//nav
+#nav {
+    #links {
+        list-style-type: none;
+        padding: 0;
+
+        a {
+            display: block;
+            padding: 10px;
+            text-decoration: none;
+        }    
+    }
+}    
+
+// Profile
+#profile {
+    position: relative;
+    min-height: 48px;
+    cursor: default;
+  
+    h3 {
+      position: relative;
+      color: $site-darker-green;
+      font-weight: 600;
+      line-height: 1em;
+    }
+  
+    h5 {
+      position: relative;
+      display: block;
+      color: $site-darker-green;
+    }
+  
+    .image-profile {
+      display: inline-block;
+      border: 0;
+      width: 100%;
+      height: 90px;
+    }
+  }     
+
+//section-container
+.section-container {
+      flex: 4;
+      background-color: $background;
+      text-align: center;
+
+      p {
+          margin: 10px;
+      }
+  }
+
+//Header
+
+header {
+    font-size: 2em;
+    letter-spacing: -1px;
+    font-weight: 300;
+    color: #666;
+    line-height: 1.5em;
+}
+
+//Footer - Social Icons
+.footer {
+    position: fixed;
+    bottom: 0px;
+    right: 0;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+
+    #social-icons {
+        list-style-type: none;
+        padding: 0;
+        }
+
+    li {
+        display: inline;
+    }
+
+    a {
+        display: inline-block;
+        text-align: center;
+        padding: 10px;
+         //藏text之後 padding = 0
+        transition: all 0.3s ease;
+        color: $site-darker-green;
+        font-size: 20px;
+
+
+        &:hover {
+            background-color: #000;
+            color: $site-yellow;
+          }
+      }
+        
+}
+
+
+
+//Media break point (always at botton to override other styles)
+  @media screen and (min-width: 960px) {   
+    #main {
+        flex-direction: row;
+    }
+
+    .menu-content {
+        display: block;
+        max-height: 100%;
+        min-height: 100vw;
+    }
+    #burger {
+        display: none;
+    }
+
+
+}

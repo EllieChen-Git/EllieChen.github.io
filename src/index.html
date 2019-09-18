@@ -10,52 +10,56 @@
     </head>
 
     <body id="home">
-        <main>
+        <div id="main">
+
 <!-- Memu -->
             <div class="collapsible-menu">
                 <input type="checkbox" id="menu">
                 <label for="menu"><img id="burger" src="/images/burger.png" /></label>
-
                 <div class="menu-content">
-<!-- Logo -->
-                    <div id="logo">
+<!-- Profile -->
+                    <div id="profile">
                         <span class="image-profile"><img src="./images/profile_prank.JPG" alt="profile of Ellie" /></span>
-                        <h4 id="title">Ellie</h4>
-                        <p>Aspiring Deverloper</p>
+                        <h3>Ellie</h3>
+                        <h5>Aspiring Deverloper</h5>
                     </div>
-<!-- Links -->
-                    <ul>
-                        <li><a href="#top" id="top-link"><span class="fas fa-home"></i>Home</span></a></li>
-                        <li><a href="#about_me" id="about-link"><span class="fas fa-user"></i>About Me</span></a></li>
-                        <li><a href="#skills_projects" id="projects-link"><span class="fas fa-hammer">Skills & Projects</span></a></li>
-                        <li><a href="#experiences" id="experiences-link"><span class="fas fa-briefcase">Experiences</span></a></li>
-                        <li><a href="#contact_me" id="contact-link"><span class="fas fa-user-edit">Contact</span></a></li>
-                    </ul>
+<!-- Nav -->
+                    <nav id="nav">
+                        <ul id="links">
+                            <li><a href="index.html" id="home-link"><span class="fas fa-home"></i>Home</span></a></li>
+                            <li><a href="about_me.html" id="about-link"><span class="fas fa-user"></i>About Me</span></a></li>
+                            <li><a href="skills_projects.html" id="projects-link"><span class="fas fa-hammer">Skills & Projects</span></a></li>
+                            <li><a href="experiences.html" id="experiences-link"><span class="fas fa-briefcase">Experiences</span></a></li>
+                            <li><a href="contact_me.html" id="contact-link"><span class="fas fa-user-edit">Contact</span></a></li>
+                        </ul>
+                    </nav>
                 </div>
             </div>
 
-            <section class="section-container">
-<!-- Brief introduction -->
+
+            <div class="section-container">
+                <header>Ellie Chen</header>
+<!-- Intro -->
                 <section class="section-top">
-                <h1>Ellie Chen</h1>
                 <p>Hello world! My name is Ellie, I have an inquisitive mind and enjoy turning challenges into adventures! I'm passionate about coding and helping others to achieve their goals in life!</p>
                 </section>
                 
-                <section class="section-middle"></section>
+                <section class="section-middle">
+                </section>
 
 <!-- Social Icons -->
-                <section class="section-bottom">
-                    <ul class="icons">
+                <footer class="footer">
+                    <ul class="social-icons">
                         <li><a href="https://www.linkedin.com/in/elliettchen/" target="_blank" class="fab fa-linkedin" title="linkedIn"><span class="label">LinkedIn</span></a></li>
                         <li><a href="https://github.com/EllieChen-Git" target="_blank" class="fab fa-github" title="github"><span class="label" >Github</span></a></li>
-                        <li><a href="https://drive.google.com/file/d/1Yt1x6mOb66iECkf1uqzhCrEJmWKOUYNI/view" target="_blank" class="icon fas fa-file" title="resume"><span class="label">Resume</span></a></li>
+                        <li><a href="./resources/resume_ellie_chen.pdf" target="_blank" class="icon fas fa-file" title="resume"><span class="label">Resume</span></a></li>
                         <li><a href="https://medium.com/@elliechen.etc" target="_blank" class="fab fa-medium" title="medium"><span class="label" >Medium</span></a></li>
                         <li><a href="mailto:ellie.tt.chen@gmail.com" target="_top" class="fas fa-envelope" title="email"><span class="label">Email</span></a></li>
                     </ul>
+                </footer>
 
-                </section>
-            </section>
-        </main>
+            </div>
+        </div>
     </body>
 </html>
 

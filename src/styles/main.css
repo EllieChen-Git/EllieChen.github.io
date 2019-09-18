@@ -1,10 +1,6 @@
 @import url("https://pro.fontawesome.com/releases/v5.10.1/css/all.css");
 @import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
-#home body {
-  margin: 0;
-}
-
-main {
+#main {
   display: flex;
   flex-direction: column;
 }
@@ -19,15 +15,6 @@ main {
   flex: 1;
   background-color: #e9ea7b;
   padding: 30px;
-}
-.collapsible-menu ul {
-  list-style-type: none;
-  padding: 0;
-}
-.collapsible-menu a {
-  display: block;
-  padding: 10px;
-  text-decoration: none;
 }
 .collapsible-menu label {
   display: block;
@@ -47,25 +34,33 @@ input:checked ~ .menu-content {
   max-height: 100%;
 }
 
-#logo {
+#nav #links {
+  list-style-type: none;
+  padding: 0;
+}
+#nav #links a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+
+#profile {
   position: relative;
   min-height: 48px;
   cursor: default;
 }
-#logo h4 {
+#profile h3 {
   position: relative;
   color: #1B4001;
   font-weight: 600;
-  font-size: 24px;
   line-height: 1em;
 }
-#logo p {
+#profile h5 {
   position: relative;
   display: block;
-  font-size: 20px;
   color: #1B4001;
 }
-#logo .image-profile {
+#profile .image-profile {
   display: inline-block;
   border: 0;
   width: 100%;
@@ -81,7 +76,15 @@ input:checked ~ .menu-content {
   margin: 10px;
 }
 
-.section-bottom {
+header {
+  font-size: 2em;
+  letter-spacing: -1px;
+  font-weight: 300;
+  color: #666;
+  line-height: 1.5em;
+}
+
+.footer {
   position: fixed;
   bottom: 0px;
   right: 0;
@@ -89,28 +92,28 @@ input:checked ~ .menu-content {
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
-.section-bottom a {
+.footer #social-icons {
+  list-style-type: none;
+  padding: 0;
+}
+.footer li {
+  display: inline;
+}
+.footer a {
   display: inline-block;
   text-align: center;
-  padding: 16px;
+  padding: 10px;
   transition: all 0.3s ease;
   color: #1B4001;
   font-size: 20px;
 }
-.section-bottom a:hover {
+.footer a:hover {
   background-color: #000;
   color: #FFCF34;
 }
-.section-bottom li {
-  display: inline;
-}
-.section-bottom ul {
-  list-style-type: none;
-  padding: 0;
-}
 
 @media screen and (min-width: 960px) {
-  main {
+  #main {
     flex-direction: row;
   }
 
