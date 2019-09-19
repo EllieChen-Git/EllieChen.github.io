@@ -1,0 +1,17 @@
+.image.featured {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height:70%; 
+    overflow: hidden;
+
+    img {
+        cursor: auto; 
+        transition: all 1.5s ease-out;
+
+        &:hover{
+            transform:scale(1.2);
+        }
+    }
+}
