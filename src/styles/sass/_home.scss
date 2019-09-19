@@ -46,8 +46,9 @@ input:checked ~ .menu-content {
 
         a {
             display: block;
-            padding: 10px;
-            text-decoration: none;
+            padding: 10px 0;
+            color: $site-darker-green;
+            font-size: 18px;
         }    
     }
 }    
@@ -86,7 +87,7 @@ input:checked ~ .menu-content {
       text-align: center;
 
       p {
-          margin: 10px;
+          margin: 10px 50px;
           padding: 5px;
       }
   }
@@ -125,38 +126,35 @@ header {
         background-size: contain;
         margin: 5px;
         justify-self: center;
+        opacity: 0.8;
     }
 }
 
 
+
+
 //Footer - Social Icons
-.footer {
+footer {
     position: fixed;
     bottom: 0px;
-    right: 0;
+    right: 5px;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
 
-    #social-icons {
+    .social-icons {
         list-style-type: none;
         padding: 0;
         }
 
     li {
-        display: inline;
+        display: block;
     }
 
     a {
-        display: block;
-        text-align: justify;
-        font-size: 20px;
         padding: 10px;
-         //藏text之後 padding = 0
         transition: all 0.3s ease;
         color: $site-darker-green;
-
-
 
         &:hover {
             background-color: #000;
@@ -182,7 +180,5 @@ header {
     #burger {
         display: none;
     }
-
-
 }
 

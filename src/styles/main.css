@@ -42,8 +42,9 @@ input:checked ~ .menu-content {
 }
 #nav #links a {
   display: block;
-  padding: 10px;
-  text-decoration: none;
+  padding: 10px 0;
+  color: #1B4001;
+  font-size: 18px;
 }
 
 #profile {
@@ -75,7 +76,7 @@ input:checked ~ .menu-content {
   text-align: center;
 }
 .section-container p {
-  margin: 10px;
+  margin: 10px 50px;
   padding: 5px;
 }
 
@@ -111,32 +112,30 @@ header {
   background-size: contain;
   margin: 5px;
   justify-self: center;
+  opacity: 0.8;
 }
 
-.footer {
+footer {
   position: fixed;
   bottom: 0px;
-  right: 0;
+  right: 5px;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
-.footer #social-icons {
+footer .social-icons {
   list-style-type: none;
   padding: 0;
 }
-.footer li {
-  display: inline;
-}
-.footer a {
+footer li {
   display: block;
-  text-align: justify;
-  font-size: 20px;
+}
+footer a {
   padding: 10px;
   transition: all 0.3s ease;
   color: #1B4001;
 }
-.footer a:hover {
+footer a:hover {
   background-color: #000;
   color: #FFCF34;
 }
