@@ -16,7 +16,7 @@
     flex: 1;
     background-color: $menu;
     padding: 30px;
-    height: 100vh;
+    min-height: 100vh;
     
     label {
         display: block;
@@ -106,21 +106,25 @@ header {
     display: flex;
     flex-direction: column;
     align-content: center;
-    width: 30%;
+    justify-content: center;
+    width: 100%;
 
     .button-scrolly {
         text-align: center;
         display: block;
         position: relative;
         color: white;
-        padding: 40px;
+        font-weight: bold;
+        padding: 40px 0;
         width: 100%;
         cursor: pointer;
         background-image: url(/images/hunter.jpg);
         background-repeat: no-repeat;
-        background-position: center;
+        background-position: top;
         background-attachment: fixed;
-        background-size: contain
+        background-size: contain;
+        margin: 5px;
+        justify-self: center;
     }
 }
 
@@ -144,13 +148,14 @@ header {
     }
 
     a {
-        display: inline-block;
-        text-align: center;
+        display: block;
+        text-align: justify;
+        font-size: 20px;
         padding: 10px;
          //藏text之後 padding = 0
         transition: all 0.3s ease;
         color: $site-darker-green;
-        font-size: 20px;
+
 
 
         &:hover {
