@@ -2,9 +2,11 @@
 #main {
     display: flex;
     flex-direction: column;
+    min-height: 100vh;
 }
 
-//memu
+
+//menu
 .menu-content {
     max-height: 0;
     overflow: hidden;
@@ -15,6 +17,7 @@
     flex: 1;
     background-color: $menu;
     padding: 30px;
+    height: 100vh;
     
     label {
         display: block;
@@ -85,11 +88,11 @@ input:checked ~ .menu-content {
 
       p {
           margin: 10px;
+          padding: 5px;
       }
   }
 
 //Header
-
 header {
     font-size: 2em;
     letter-spacing: -1px;
@@ -97,6 +100,31 @@ header {
     color: #666;
     line-height: 1.5em;
 }
+
+//Buttons
+.section-middle {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 30%;
+
+    .button-scrolly {
+        text-align: center;
+        display: block;
+        position: relative;
+        color: white;
+        padding: 40px;
+        width: 100%;
+        cursor: pointer;
+        background-image: url(/images/hunter.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        background-size: contain
+    }
+}
+
 
 //Footer - Social Icons
 .footer {
@@ -136,7 +164,7 @@ header {
 
 
 
-//Media break point (always at botton to override other styles)
+//Media break point (always at bottom to override other styles)
   @media screen and (min-width: 960px) {   
     #main {
         flex-direction: row;
@@ -145,7 +173,7 @@ header {
     .menu-content {
         display: block;
         max-height: 100%;
-        min-height: 100vw;
+        min-height: 100vh;
     }
     #burger {
         display: none;
@@ -153,3 +181,4 @@ header {
 
 
 }
+
