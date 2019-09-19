@@ -168,6 +168,14 @@ header {
   transform: scale(1.2);
 }
 
+.image-blog {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 70%;
+}
+
 header, h3, h5, nav, #section-buttons, footer {
   font-family: "Roboto", sans-serif;
 }
