@@ -331,6 +331,7 @@ img {
 /* Do an horizontal flip when you move the mouse over the flip box container */
 .flip-card:hover .flip-card-inner {
   transform: rotateY(180deg);
+  transform: rotateX(180deg);
 }
 
 /* Position the front and back side */
@@ -353,8 +354,33 @@ img {
   width: 250px;
   height: 200px;
   transform: rotateY(180deg);
+  transform: rotateX(180deg);
 }
 
+.sub-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.flip-card {
+  flex: 1;
+  padding: 5px 10px;
+}
+
+.flip-card-text {
+  flex: 3;
+  padding: 40px;
+}
+
+@media screen and (min-width: 960px) {
+  #experiences .sub-section {
+    display: flex;
+    flex-direction: row;
+  }
+}
 header, h3, h5, nav, #section-buttons, footer {
   font-family: "Roboto", sans-serif;
 }

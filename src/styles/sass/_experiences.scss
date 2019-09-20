@@ -26,6 +26,7 @@
   /* Do an horizontal flip when you move the mouse over the flip box container */
   .flip-card:hover .flip-card-inner {
     transform: rotateY(180deg);
+    transform: rotateX(180deg);
   }
   
   /* Position the front and back side */
@@ -48,10 +49,33 @@
     width:250px;
     height:200px;
     transform: rotateY(180deg);
+    transform: rotateX(180deg);
   }
 
-//   .sub-section.flip-card {
-//       display: flex;
-//       flex-direction: row;
-//   }
+  .sub-section {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+  }
 
+  .flip-card {
+      flex: 1;
+      padding: 5px 10px;
+
+  }
+
+  .flip-card-text {
+      flex: 3;
+      padding: 40px;
+}
+
+//Media break point (always at bottom to override other styles)
+@media screen and (min-width: 960px) {   
+   #experiences .sub-section {
+        display: flex;
+        flex-direction: row;
+    }
+
+}
