@@ -9,6 +9,7 @@
     img {
         cursor: auto; 
         transition: all 1.5s ease-out;
+        width: 100%;
 
         &:hover{
             transform:scale(1.2);

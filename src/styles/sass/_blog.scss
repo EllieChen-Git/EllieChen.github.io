@@ -5,3 +5,8 @@
     width: 50%;
     height:70%; 
 }
+
+img {
+    width: 100%;
+    //set <img> to 'width: 100%;' fixed the layout issue
+}

@@ -88,33 +88,6 @@ header {
   line-height: 1.5em;
 }
 
-#section-buttons {
-  margin: auto;
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  justify-content: center;
-  width: 100%;
-}
-#section-buttons .button-scrolly {
-  text-align: center;
-  display: block;
-  position: relative;
-  color: white;
-  font-weight: bold;
-  padding: 40px 0;
-  width: 100%;
-  cursor: pointer;
-  background-image: url(/images/hunter.jpg);
-  background-repeat: no-repeat;
-  background-position: top;
-  background-attachment: fixed;
-  background-size: contain;
-  margin: 5px;
-  justify-self: center;
-  opacity: 0.8;
-}
-
 footer {
   position: fixed;
   bottom: 0px;
@@ -166,6 +139,7 @@ footer a:hover {
 .image.featured img {
   cursor: auto;
   transition: all 1.5s ease-out;
+  width: 100%;
 }
 .image.featured img:hover {
   transform: scale(1.2);
@@ -177,6 +151,10 @@ footer a:hover {
   margin-right: auto;
   width: 50%;
   height: 70%;
+}
+
+img {
+  width: 100%;
 }
 
 /* Slideshow container */
