@@ -88,6 +88,33 @@ header {
   line-height: 1.5em;
 }
 
+#section-buttons {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  width: 100%;
+}
+#section-buttons .button-scrolly {
+  text-align: center;
+  display: block;
+  position: relative;
+  color: white;
+  font-weight: bold;
+  padding: 40px 0;
+  width: 100%;
+  cursor: pointer;
+  background-image: url(/images/hunter.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-attachment: fixed;
+  background-size: contain;
+  margin: 5px;
+  justify-self: center;
+  opacity: 0.8;
+}
+
 footer {
   position: fixed;
   bottom: 0px;
@@ -157,9 +184,18 @@ img {
   width: 100%;
 }
 
+img {
+  width: 100%;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
 /* Slideshow container */
 #slideshow-container {
-  max-width: 1000px;
+  max-width: 60%;
   position: relative;
   margin: auto;
 }
@@ -177,7 +213,7 @@ img {
   width: auto;
   margin-top: -22px;
   padding: 16px;
-  color: white;
+  color: #b8f1f3;
   font-weight: bold;
   font-size: 18px;
   transition: 0.6s ease;
@@ -185,9 +221,14 @@ img {
   user-select: none;
 }
 
-/* Position the "next button" to the right */
+/* Position the "next/prev button"*/
 .next {
-  right: 0;
+  right: 10px;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev {
+  left: 10px;
   border-radius: 3px 0 0 3px;
 }
 
@@ -198,24 +239,18 @@ img {
 
 /* Caption text */
 .text {
-  color: #f2f2f2;
+  color: #1B4001;
   font-size: 15px;
+  font-weight: bold;
   padding: 8px 12px;
   position: absolute;
-  bottom: 8px;
+  left: 8px;
+  bottom: -25px;
   width: 100%;
   text-align: center;
 }
 
 /* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
-
 /* The dots/bullets/indicators */
 .dot {
   cursor: pointer;

@@ -102,33 +102,33 @@ header {
 }
 
 //Buttons
-// #section-buttons {
-//     margin: auto;
-//     display: flex;
-//     flex-direction: column;
-//     align-content: center;
-//     justify-content: center;
-//     width: 100%;
+#section-buttons {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
 
-//     .button-scrolly {
-//         text-align: center;
-//         display: block;
-//         position: relative;
-//         color: white;
-//         font-weight: bold;
-//         padding: 40px 0;
-//         width: 100%;
-//         cursor: pointer;
-//         background-image: url(/images/hunter.jpg);
-//         background-repeat: no-repeat;
-//         background-position: top;
-//         background-attachment: fixed;
-//         background-size: contain;
-//         margin: 5px;
-//         justify-self: center;
-//         opacity: 0.8;
-//     }
-// }
+    .button-scrolly {
+        text-align: center;
+        display: block;
+        position: relative;
+        color: white;
+        font-weight: bold;
+        padding: 40px 0;
+        width: 100%;
+        cursor: pointer;
+        background-image: url(/images/hunter.jpg);
+        background-repeat: no-repeat;
+        background-position: top;
+        background-attachment: fixed;
+        background-size: contain;
+        margin: 5px;
+        justify-self: center;
+        opacity: 0.8;
+    }
+}
 
 
 
