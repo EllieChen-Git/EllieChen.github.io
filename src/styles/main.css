@@ -88,31 +88,6 @@ header {
   line-height: 1.5em;
 }
 
-#section-buttons {
-  margin: auto;
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  justify-content: center;
-  width: 100%;
-}
-#section-buttons .button-scrolly {
-  display: block;
-  position: relative;
-  left: 400px;
-  top: 50px;
-  padding: 40px 0;
-  width: 100%;
-  cursor: pointer;
-  background-image: url(/images/hunter.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
-  background-size: contain;
-  margin: 5px;
-  opacity: 0.8;
-}
-
 footer {
   position: fixed;
   bottom: 0px;
@@ -151,6 +126,31 @@ footer a:hover {
 
   #burger {
     display: none;
+  }
+
+  #section-buttons {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+  }
+  #section-buttons .button-scrolly {
+    display: block;
+    position: relative;
+    left: 270px;
+    top: 50px;
+    padding: 40px 0;
+    width: 100%;
+    cursor: pointer;
+    background-image: url(/images/hunter.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: contain;
+    margin: 5px;
+    opacity: 0.8;
   }
 }
 .image.featured {
