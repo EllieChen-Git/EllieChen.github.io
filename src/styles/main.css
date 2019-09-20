@@ -16,7 +16,7 @@
   flex: 1;
   background-color: #e9ea7b;
   padding: 30px;
-  min-height: 100vh;
+  min-height: 5vh;
 }
 .collapsible-menu label {
   display: block;
@@ -280,6 +280,11 @@ footer a:hover {
 }
 header, h3, h5, nav, #section-buttons, footer {
   font-family: "Roboto", sans-serif;
+}
+
+header {
+  font-weight: bold;
+  text-decoration: underline overline dotted #1B4001;
 }
 
 p {

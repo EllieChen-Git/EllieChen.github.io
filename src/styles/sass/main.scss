@@ -14,6 +14,11 @@ header, h3, h5, nav, #section-buttons, footer {
     font-family: 'Roboto', sans-serif; 
 }
 
+header {
+    font-weight: bold;
+    text-decoration: underline overline dotted $site-darker-green;
+}
+
 p {
     font-family: 'Source Sans Pro', sans-serif;
 }
