@@ -193,19 +193,39 @@ img {
   box-sizing: border-box;
 }
 
-/* Slideshow container */
+.skills-icons-list {
+  list-style-type: none;
+}
+.skills-icons-list .skills-icons {
+  font-size: 30px;
+  padding: 15px;
+}
+.skills-icons-list .fab.fa-html5 {
+  color: tomato;
+}
+.skills-icons-list .fa-css3-alt {
+  color: Dodgerblue;
+}
+.skills-icons-list .fas.fa-gem {
+  color: red;
+}
+.skills-icons-list .fa-language {
+  color: green;
+}
+.skills-icons-list .fa-wrench {
+  color: Mediumslateblue;
+}
+
 #slideshow-container {
   max-width: 60%;
   position: relative;
   margin: auto;
 }
 
-/* Hide the images by default */
 .mySlides {
   display: none;
 }
 
-/* Next & previous buttons */
 .prev, .next {
   cursor: pointer;
   position: absolute;
@@ -221,7 +241,6 @@ img {
   user-select: none;
 }
 
-/* Position the "next/prev button"*/
 .next {
   right: 10px;
   border-radius: 3px 0 0 3px;
@@ -232,12 +251,10 @@ img {
   border-radius: 3px 0 0 3px;
 }
 
-/* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
   background-color: rgba(0, 0, 0, 0.8);
 }
 
-/* Caption text */
 .text {
   color: #1B4001;
   font-size: 15px;
@@ -245,13 +262,11 @@ img {
   padding: 8px 12px;
   position: absolute;
   left: 8px;
-  bottom: -25px;
+  bottom: -80px;
   width: 100%;
   text-align: center;
 }
 
-/* Number text (1/3 etc) */
-/* The dots/bullets/indicators */
 .dot {
   cursor: pointer;
   height: 15px;
@@ -267,7 +282,6 @@ img {
   background-color: #717171;
 }
 
-/* Fading animation */
 .fade {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 1.5s;
