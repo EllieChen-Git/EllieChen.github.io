@@ -33,9 +33,9 @@ Below are the features of my portfolio website:
 
 ### Sitemap
 
-The sitemap of the portfolio website can also be viewed on GitHub [Portfolio Website - Sitemap](https://github.com/EllieChen-Git/portfolio-site/blob/master/docs/sitemap.jpg)
+The sitemap of the portfolio website can also be viewed on GitHub [Portfolio Website - Sitemap](https://github.com/EllieChen-Git/portfolio-site/blob/master/docs/sitemap.JPG)
 
-![Sitemap](./docs/sitemap.jpg)
+![Sitemap](./docs/sitemap.JPG)
 
 ### Screenshots
 
