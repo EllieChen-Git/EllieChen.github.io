@@ -1,13 +1,13 @@
-# <u>Ellie Chen's Portfolio Site</u>
+# <u>Ellie Chen's Portfolio Website</u>
 
 ## Links
 
-Pleas feel free to check out my portfolio site: [Published Portfolio Site](url to be added)
+Pleas feel free to check out my portfolio website: [Published portfolio website](url to be added)
 
-Pleas feel free to check out this project on GitHub: [Portfolio Site - GitHub Repo](https://github.com/EllieChen-Git/portfolio-site)
+Pleas feel free to check out this project on GitHub: [Portfolio website - GitHub Repo](https://github.com/EllieChen-Git/portfolio-site)
 
 ------
-## <u>Overview of Portfolio Site</u>
+## <u>Overview of Portfolio Website</u>
 
 ### Purpose
 
@@ -33,15 +33,17 @@ Below are the features of my portfolio website:
 
 ### Sitemap
 
+The sitemap of the portfolio website can also be viewed on GitHub [Portfolio Website - Sitemap](https://github.com/EllieChen-Git/portfolio-site/blob/master/docs/sitemap.jpg)
+
 ![Sitemap](./docs/sitemap.jpg)
 
 ### Screenshots
 
-- <u>Design process (Mood board - Pinterest)</u>
+- <u>Design brief (Mood board)</u>
 
-Refer to the mood board for this site here: [Portfolio Site - Mood Board](https://www.pinterest.com.au/elliechenetc/portfolio-site/)
+Refer to the mood board for this site here: [Portfolio Website - Mood Board](https://www.pinterest.com.au/elliechenetc/portfolio-site/)
 
-- <u>Wireframes (Balsamiq)</u>
+- <u>Design brief (Wireframes)</u>
 
 ![Home page](./docs/wireframes/wireframe_1_home.JPG)
 
@@ -55,7 +57,7 @@ Refer to the mood board for this site here: [Portfolio Site - Mood Board](https:
 
 - <u>Project Management (Trello)</u>
 
-Refer to the Trello board for this site here: [Portfolio Site - Project Management](https://trello.com/b/vPfF8Msm/portfolio-site)
+Refer to the Trello board for this site here: [Portfolio Website - Project Management](https://trello.com/b/vPfF8Msm/portfolio-site)
 
 ### Target audience
 - Potential employers and recruiting agencies
