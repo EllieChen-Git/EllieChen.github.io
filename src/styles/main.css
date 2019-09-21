@@ -412,7 +412,7 @@ img {
     flex-direction: row;
   }
 }
-header, h3, h4, h5, h6, nav, #section-buttons,
+header, h3, h4, h5, h6, nav, .text, #section-buttons,
 small, footer {
   font-family: "Roboto", sans-serif;
 }
