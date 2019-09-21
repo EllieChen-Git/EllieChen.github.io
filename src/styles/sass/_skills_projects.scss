@@ -1,59 +1,58 @@
-img {
-  width: 100%;
-  text-align: center;
-  border-radius: 5%;
-}
-
-* {box-sizing:border-box}
+// All images
+  img {
+    width: 100%;
+    text-align: center;
+    border-radius: 5%;
+  }
 
 
 // Skills icons
+  .skills-icons-list {
+    list-style-type: none;
 
-.skills-icons-list {
-  list-style-type: none;
+    .skills-icons {
+      font-size: 30px;
+      padding: 15px;
+    }
+
+    .fab.fa-html5 {
+      color: rgb(255, 99, 71);
+    }
+
+    .fa-css3-alt {
+      color: rgb(30, 144, 255);
+    }
+
+    .fas.fa-gem {
+      color: rgba(255, 0, 0);
+    }
+
+    .fa-language {
+      color: rgb(5, 128, 5);
+    }
+
+    .fa-wrench {
+      color: rgb(123, 104, 238);
+    }
 
 
-  .skills-icons {
-    font-size: 30px;
-    padding: 15px;
   }
 
-  .fab.fa-html5 {
-    color: tomato;
-  }
+//Slideshow - Container
 
-  .fa-css3-alt {
-    color: Dodgerblue;
-  }
+  * {box-sizing:border-box}
 
-  .fas.fa-gem {
-    color: red;
-  }
-
-  .fa-language {
-    color: green;
-  }
-
-  .fa-wrench {
-    color: Mediumslateblue;
-  }
-
-
-}
-
-//Slideshow 
-#slideshow-container {
-    max-width: 60%;
-    position: relative;
-    margin: auto;
-  }
+  #slideshow-container {
+      max-width: 60%;
+      position: relative;
+      margin: auto;
+    }
   
-  //Hide the images by default 
   .mySlides {
     display: none;
   }
   
-  //Next & previous buttons 
+  //Slideshow - Next & previous buttons 
   .prev, .next {
     cursor: pointer;
     position: absolute;
@@ -69,7 +68,6 @@ img {
     user-select: none;
   }
   
-  //Position the "next/prev button"
   .next {
     right: 10px;
     border-radius: 3px 0 0 3px;
@@ -79,27 +77,25 @@ img {
     border-radius: 3px 0 0 3px;
   }
 
-
-  //On hover, add a black background color with a little bit see-through 
   .prev:hover, .next:hover {
     background-color: rgba(0,0,0,0.8);
   }
   
-  //Caption text 
-  .text {
-    color: $site-darker-green;
-    font-size: 15px;
-    font-weight: bold;
-    padding: 8px 12px;
-    position: absolute;
-    left: 8px;
-    bottom: -80px;
-    width: 100%;
-    text-align: center
-  }
+  //Slideshow - caption text 
+    .text {
+      color: $site-darker-green;
+      font-size: 15px;
+      font-weight: bold;
+      padding: 8px 12px;
+      position: absolute;
+      left: 8px;
+      bottom: -80px;
+      width: 100%;
+      text-align: center
+    }
+    
   
-  
-  //The dots/bullets/indicators 
+  //Slideshow - dots 
   .dot {
     cursor: pointer;
     height: 15px;
@@ -115,7 +111,7 @@ img {
     background-color: #717171;
   }
   
-  //Fading animation 
+  //Slideshow - Fading animation 
   .fade {
     -webkit-animation-name: fade;
     -webkit-animation-duration: 1.5s;

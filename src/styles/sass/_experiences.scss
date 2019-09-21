@@ -1,19 +1,36 @@
-.flip-card-front img {
-    width:250px;
-    height:200px;
-}
-
-
-
-/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover*/
-.flip-card {
-    background-color: transparent;
-    width:250px;
-    height:200px;
-    border: 1px solid #f1f1f1;
+//Flip card - flex position
+  .sub-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
   }
+
+  .flip-card {
+    flex: 1;
+    padding: 5px 10px;
+
+  }
+
+  .flip-card-text {
+    flex: 3;
+    padding: 40px;
+    p {
+      line-height: 1.5;
+    }
+  }
+
+
+//Flip Card container
+  .flip-card {
+      background-color: transparent;
+      width:250px;
+      height:200px;
+      border: 1px solid #f1f1f1;
+    }
   
-  /* This container is needed to position the front and back side */
+//Flip card - inner
   .flip-card-inner {
     position: relative;
     width: 100%;
@@ -23,13 +40,13 @@
     transform-style: preserve-3d;
   }
   
-  /* Do an horizontal flip when you move the mouse over the flip box container */
+//Flip card - flip direction
   .flip-card:hover .flip-card-inner {
     transform: rotateY(180deg);
     transform: rotateX(180deg);
   }
   
-  /* Position the front and back side */
+//Flip card - front and back position 
   .flip-card-front, .flip-card-back {
     position: absolute;
     width: 100%;
@@ -37,42 +54,25 @@
     backface-visibility: hidden;
   }
   
-  /* Style the front side (fallback if image is missing) */
+//Flip card - front Style
   .flip-card-front {
     background-color: $site-light-green;
     color: white;
     border-radius: 15%;
+      img {
+        width:250px;
+        height:200px;
+    }
   }
+
   
-  /* Style the back side */
+//Flip card - back Style
   .flip-card-back {
     width:250px;
     height:200px;
     transform: rotateY(180deg);
     transform: rotateX(180deg);
   }
-
-  .sub-section {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      text-align: center;
-      align-items: center;
-  }
-
-  .flip-card {
-      flex: 1;
-      padding: 5px 10px;
-
-  }
-
-  .flip-card-text {
-      flex: 3;
-      padding: 40px;
-      p {
-        line-height: 1.5;
-      }
-}
 
 //Media break point (always at bottom to override other styles)
 @media screen and (min-width: 960px) {   

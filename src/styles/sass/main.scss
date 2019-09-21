@@ -5,20 +5,14 @@
 @import "skills_projects";
 @import "experiences";
 @import url("https://pro.fontawesome.com/releases/v5.10.1/css/all.css");
-//font for title 'Roboto'
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
-//font for p 'Source Sans Pro' 
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');     
-// fallback: sans-serif;
 
+
+//Styles applied to all pages
 header, h3, h4, h5, h6, nav, .text, #section-buttons, 
 small, footer {
-    font-family: 'Roboto', sans-serif; 
-}
-
-header {
-    font-weight: bold;
-    text-decoration: underline overline dotted;
+    font-family: 'Roboto', sans-serif;
 }
 
 p {

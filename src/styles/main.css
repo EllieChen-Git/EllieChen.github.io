@@ -36,17 +36,6 @@ input:checked ~ .menu-content {
   max-height: 100%;
 }
 
-#nav #links {
-  list-style-type: none;
-  padding: 0;
-}
-#nav #links a {
-  display: block;
-  padding: 10px 0;
-  color: #1B4001;
-  font-size: 18px;
-}
-
 #profile {
   position: relative;
   min-height: 48px;
@@ -64,6 +53,17 @@ input:checked ~ .menu-content {
   color: #1B4001;
 }
 
+#nav #links {
+  list-style-type: none;
+  padding: 0;
+}
+#nav #links a {
+  display: block;
+  padding: 10px 0;
+  color: #1B4001;
+  font-size: 18px;
+}
+
 .section-container {
   flex: 4;
   background-color: #ecf1f1;
@@ -71,11 +71,29 @@ input:checked ~ .menu-content {
 }
 
 header {
+  font-weight: bold;
+  text-decoration: underline overline dotted;
   font-size: 2em;
   letter-spacing: -1px;
-  font-weight: 300;
   color: #666;
   line-height: 1.5em;
+}
+
+#copyright {
+  position: relative;
+  height: 155px;
+  width: 100%;
+}
+
+small {
+  position: absolute;
+  width: 100%;
+  font-size: 70%;
+  background: #1B4001;
+  color: white;
+  text-align: center;
+  bottom: 0;
+  line-height: 30px;
 }
 
 footer {
@@ -101,23 +119,6 @@ footer a {
 footer a:hover {
   background-color: #000;
   color: #FFCF34;
-}
-
-#copyright {
-  position: relative;
-  height: 155px;
-  width: 100%;
-}
-
-small {
-  position: absolute;
-  width: 100%;
-  font-size: 70%;
-  background: #1B4001;
-  color: white;
-  text-align: center;
-  bottom: 0;
-  line-height: 30px;
 }
 
 @media screen and (min-width: 960px) {
@@ -166,6 +167,7 @@ small {
   width: 50%;
   height: 70%;
   overflow: hidden;
+  border-radius: 5%;
 }
 .image.featured img {
   cursor: auto;
@@ -174,6 +176,26 @@ small {
 }
 .image.featured img:hover {
   transform: scale(1.2);
+}
+
+p.blog-title {
+  font-size: 24px;
+  margin: 10px;
+  font-weight: bold;
+  color: #1B4001;
+  background-color: #FFFCA8;
+  width: 100%;
+}
+
+p.blog-date {
+  font-size: 16px;
+  margin: 7px;
+  text-decoration: underline;
+}
+
+p.blog-text {
+  padding: 20px 60px;
+  margin: 0;
 }
 
 .image-blog {
@@ -185,35 +207,10 @@ small {
   cursor: initial;
 }
 
-#blog img {
-  width: 100%;
-}
-
-p.blog-title {
-  font-size: 24px;
-  margin: 10px;
-  font-weight: bold;
-}
-
-p.blog-date {
-  text-decoration: underline;
-  font-size: 16px;
-  margin: 7px;
-}
-
-p.blog-text {
-  padding: 20px 60px;
-  margin: 0;
-}
-
 img {
   width: 100%;
   text-align: center;
   border-radius: 5%;
-}
-
-* {
-  box-sizing: border-box;
 }
 
 .skills-icons-list {
@@ -227,16 +224,20 @@ img {
   color: tomato;
 }
 .skills-icons-list .fa-css3-alt {
-  color: Dodgerblue;
+  color: dodgerblue;
 }
 .skills-icons-list .fas.fa-gem {
   color: red;
 }
 .skills-icons-list .fa-language {
-  color: green;
+  color: #058005;
 }
 .skills-icons-list .fa-wrench {
-  color: Mediumslateblue;
+  color: mediumslateblue;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 #slideshow-container {
@@ -328,58 +329,6 @@ img {
     opacity: 1;
   }
 }
-.flip-card-front img {
-  width: 250px;
-  height: 200px;
-}
-
-/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover*/
-.flip-card {
-  background-color: transparent;
-  width: 250px;
-  height: 200px;
-  border: 1px solid #f1f1f1;
-}
-
-/* This container is needed to position the front and back side */
-.flip-card-inner {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  transition: transform 0.8s;
-  transform-style: preserve-3d;
-}
-
-/* Do an horizontal flip when you move the mouse over the flip box container */
-.flip-card:hover .flip-card-inner {
-  transform: rotateY(180deg);
-  transform: rotateX(180deg);
-}
-
-/* Position the front and back side */
-.flip-card-front, .flip-card-back {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  backface-visibility: hidden;
-}
-
-/* Style the front side (fallback if image is missing) */
-.flip-card-front {
-  background-color: #9BC9A2;
-  color: white;
-  border-radius: 15%;
-}
-
-/* Style the back side */
-.flip-card-back {
-  width: 250px;
-  height: 200px;
-  transform: rotateY(180deg);
-  transform: rotateX(180deg);
-}
-
 .sub-section {
   display: flex;
   flex-direction: column;
@@ -401,6 +350,51 @@ img {
   line-height: 1.5;
 }
 
+.flip-card {
+  background-color: transparent;
+  width: 250px;
+  height: 200px;
+  border: 1px solid #f1f1f1;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+  transform: rotateX(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #9BC9A2;
+  color: white;
+  border-radius: 15%;
+}
+.flip-card-front img {
+  width: 250px;
+  height: 200px;
+}
+
+.flip-card-back {
+  width: 250px;
+  height: 200px;
+  transform: rotateY(180deg);
+  transform: rotateX(180deg);
+}
+
 @media screen and (min-width: 960px) {
   #experiences .sub-section {
     display: flex;
@@ -410,11 +404,6 @@ img {
 header, h3, h4, h5, h6, nav, .text, #section-buttons,
 small, footer {
   font-family: "Roboto", sans-serif;
-}
-
-header {
-  font-weight: bold;
-  text-decoration: underline overline dotted;
 }
 
 p {
