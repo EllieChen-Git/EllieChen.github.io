@@ -109,6 +109,23 @@ footer a:hover {
   color: #FFCF34;
 }
 
+#copyright {
+  position: relative;
+  height: 155px;
+  width: 100%;
+}
+
+small {
+  position: absolute;
+  width: 100%;
+  font-size: 70%;
+  background: #1B4001;
+  color: white;
+  text-align: center;
+  bottom: 0;
+  line-height: 30px;
+}
+
 @media screen and (min-width: 960px) {
   .main {
     flex-direction: row;
@@ -171,6 +188,7 @@ footer a:hover {
   margin-right: auto;
   width: 50%;
   height: 70%;
+  cursor: initial;
 }
 
 img {
@@ -179,7 +197,6 @@ img {
 
 p.blog-title {
   font-size: 24px;
-  text-align: left;
   margin: 10px;
   font-weight: bold;
 }
@@ -395,7 +412,8 @@ img {
     flex-direction: row;
   }
 }
-header, h3, h4, h5, h6, nav, #section-buttons, footer {
+header, h3, h4, h5, h6, nav, #section-buttons,
+small, footer {
   font-family: "Roboto", sans-serif;
 }
 

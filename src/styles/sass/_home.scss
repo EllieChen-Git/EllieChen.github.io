@@ -169,6 +169,26 @@ footer {
         
 }
 
+#copyright {
+    position: relative;
+    height: 155px;
+    width: 100%;
+}
+
+small {
+    position: absolute;
+    width: 100%;
+    font-size: 70%;
+    background: $site-darker-green;
+    color: white;
+    text-align: center;
+    bottom:0;
+    line-height: 30px;
+}
+
+
+
+
 
 
 //Media break point (always at bottom to override other styles)
