@@ -57,7 +57,7 @@ Refer to the mood board for this site here: [Portfolio Website - Mood Board](htt
 
 ![Experiences](./docs/wireframes/wireframe_4_experiences.JPG)
 
-![Contact Me](./docs/wireframes/wireframe_5_contact_me.JPG)
+![Blog](./docs/wireframes/wireframe_5_blog.JPG)
 
 - <u>Project Management</u>
 
