@@ -11,15 +11,17 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');     
 // fallback: sans-serif;
 
-header, h3, h5, nav, #section-buttons, footer {
+header, h3, h4, h5, h6, nav, #section-buttons, footer {
     font-family: 'Roboto', sans-serif; 
 }
 
 header {
     font-weight: bold;
-    text-decoration: underline overline dotted $site-darker-green;
+    text-decoration: underline overline dotted;
 }
 
 p {
     font-family: 'Source Sans Pro', sans-serif;
+    line-height: 2;
+    white-space: pre-line; 
 }

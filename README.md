@@ -2,7 +2,7 @@
 
 ## Links
 
-Pleas feel free to check out my portfolio website: [Published portfolio website](url to be added)
+Pleas feel free to check out my portfolio website: [Deployed Portfolio Website](https://cranky-tesla-b39af5.netlify.com/index.html)
 
 Pleas feel free to check out this project on GitHub: [Portfolio website - GitHub Repo](https://github.com/EllieChen-Git/portfolio-site)
 
@@ -10,6 +10,10 @@ Pleas feel free to check out this project on GitHub: [Portfolio website - GitHub
 ## <u>Overview of Portfolio Website</u>
 
 ### Purpose
+
+<!-- [As an aspiring developer, it is important to be able to communicate and demonstrate your abilities to prospective employers.
+
+A great way to do this is to design, develop and deploy a website that showcases your talent, abilities and coding experience.] -->
 
 The purpose of this portfolio website is to showcase my ability in coding and web development. It can also be used as an excellent medium for the target audience to know more about me personally (my hobbies and personalities) and professionally (my previous work experiences, skills and personal projects).
 
@@ -37,13 +41,13 @@ The sitemap of the portfolio website can also be viewed on GitHub [Portfolio Web
 
 ![Sitemap](./docs/sitemap.JPG)
 
-### Screenshots
+### Design Brief
 
-- <u>Design brief (Mood board)</u>
+- <u>Mood board</u>
 
 Refer to the mood board for this site here: [Portfolio Website - Mood Board](https://www.pinterest.com.au/elliechenetc/portfolio-site/)
 
-- <u>Design brief (Wireframes)</u>
+- <u>Wireframes</u>
 
 ![Home page](./docs/wireframes/wireframe_1_home.JPG)
 
@@ -55,9 +59,13 @@ Refer to the mood board for this site here: [Portfolio Website - Mood Board](htt
 
 ![Contact Me](./docs/wireframes/wireframe_5_contact_me.JPG)
 
-- <u>Project Management (Trello)</u>
+- <u>Project Management</u>
 
 Refer to the Trello board for this site here: [Portfolio Website - Project Management](https://trello.com/b/vPfF8Msm/portfolio-site)
+
+### Screenshots
+
+(added screenshot of each page of site)
 
 ### Target audience
 - Potential employers and recruiting agencies

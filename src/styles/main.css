@@ -75,10 +75,6 @@ input:checked ~ .menu-content {
   background-color: #ecf1f1;
   text-align: center;
 }
-.section-container p {
-  margin: 10px 50px;
-  padding: 5px;
-}
 
 header {
   font-size: 2em;
@@ -140,7 +136,6 @@ footer a:hover {
     display: block;
     position: relative;
     left: 270px;
-    top: 50px;
     padding: 40px 0;
     width: 100%;
     cursor: pointer;
@@ -180,6 +175,24 @@ footer a:hover {
 
 img {
   width: 100%;
+}
+
+p.blog-title {
+  font-size: 24px;
+  text-align: left;
+  margin: 10px;
+  font-weight: bold;
+}
+
+p.blog-date {
+  text-decoration: underline;
+  font-size: 16px;
+  margin: 7px;
+}
+
+p.blog-text {
+  padding: 20px 60px;
+  margin: 0;
 }
 
 img {
@@ -382,17 +395,19 @@ img {
     flex-direction: row;
   }
 }
-header, h3, h5, nav, #section-buttons, footer {
+header, h3, h4, h5, h6, nav, #section-buttons, footer {
   font-family: "Roboto", sans-serif;
 }
 
 header {
   font-weight: bold;
-  text-decoration: underline overline dotted #1B4001;
+  text-decoration: underline overline dotted;
 }
 
 p {
   font-family: "Source Sans Pro", sans-serif;
+  line-height: 2;
+  white-space: pre-line;
 }
 
 /*# sourceMappingURL=main.css.map */

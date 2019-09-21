@@ -86,10 +86,10 @@ input:checked ~ .menu-content {
       background-color: $background;
       text-align: center;
 
-      p {
-          margin: 10px 50px;
-          padding: 5px;
-      }
+    //   p {
+    //       margin: 10px 50px;
+    //       padding: 5px;
+    //   }
   }
 
 //Header
@@ -207,7 +207,6 @@ footer {
             // w/o 'left: 270px;', will get full pic
             // w 'left: 270px;', pic will center (not sure if hidden on mobile)
             //其實仔細看還是沒對齊的，不過大概可以虛晃一招騙人
-            top: 50px;
             padding: 40px 0;
             width: 100%;
             cursor: pointer;
