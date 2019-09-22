@@ -2,9 +2,8 @@
 ---
 ### Links
 
-- Deployed Portfolio Website: https://elliechen.netlify.com/
-
-- GitHub Repository: https://github.com/EllieChen-Git/portfolio-site
+- [Deployed Portfolio Website](https://elliechen.netlify.com/)
+- [GitHub Repository](https://github.com/EllieChen-Git/portfolio-site)
 
 ---
 ### Purpose
@@ -18,7 +17,7 @@ In addition to that, it is a great opportunity for me to transform what I have l
 
 Below are the features of my portfolio website:
 
-#### Main Features
+#### <u>Main Features</u>
 
 This portfolio website includes a wide variety of features to engage the audience in different ways. On almost every single page, visitors will find some fun and interesting effects along with the necessary information.
 
@@ -86,7 +85,7 @@ I also implemented a slideshow effect on the major projects I have done so far, 
 
 On this page, I first created pie charts to demonstrate my skillset for each of my work experiences. Then, I used the CSS styling to achieve a flip card effect. When people hover their mouse on the card, it will turn to my skillset pie chart.
 
-#### Other Features
+#### <u>Other Features</u>
 - <b>Responsive design</b>
 
 This website is browser and mobile friendly and is an example of mobile first design. A media break point was set to 'min-width: 960px' to achieve certain effects on browsers. For instance, the whole website has a two-rows layout on browsers, but a columns layout applied on mobiles. Another example is the experiences page. On the browser version, the flip cards and job duties sit side by side, but they will turn into columns on the mobile version. Flex box was utilised to achieve the above layout effects.
@@ -110,7 +109,7 @@ This website is also secured by the subresource integrity hash keys to prevent m
 
 ### Sitemap
 
-The sitemap of the portfolio website can also be viewed on GitHub [Portfolio Website - Sitemap](https://github.com/EllieChen-Git/portfolio-site/blob/master/docs/sitemap.JPG)
+The sitemap of the portfolio website can also be viewed on GitHub: [Portfolio Website - Sitemap](https://github.com/EllieChen-Git/portfolio-site/blob/master/docs/sitemap.JPG)
 
 ![Sitemap](./docs/sitemap.JPG)
 
@@ -118,11 +117,15 @@ The sitemap of the portfolio website can also be viewed on GitHub [Portfolio Web
 
 - <u>Mood board</u>
 
-Mood board for this site can be found on Pinterest: [Portfolio Website - Mood Board](https://www.pinterest.com.au/elliechenetc/portfolio-site/)
+Mood board for this site can also be found on Pinterest: [Portfolio Website - Mood Board](https://www.pinterest.com.au/elliechenetc/portfolio-site/)
+
+![Theme](./docs/mood_board/pinterest_theme.JPG)
+
+![Layout](./docs/mood_board/pinterest_layout.JPG)
 
 - <u>Wireframes</u>
 
-The wireframes of the portfolio website can also be viewed on GitHub [Portfolio Website - Wireframes](https://github.com/EllieChen-Git/portfolio-site/tree/master/docs/wireframes)
+The wireframes of the portfolio website can also be viewed on GitHub: [Portfolio Website - Wireframes](https://github.com/EllieChen-Git/portfolio-site/tree/master/docs/wireframes)
 
 ![Home page](./docs/wireframes/wireframe_1_home.JPG)
 
@@ -153,7 +156,8 @@ Trello board for this site can be found here: [Portfolio Website - Project Manag
 - Trello screenshot - 21 Sep
 ![Blog](./docs/trello_screenshots/trello_0921.JPG)
 
-### Screenshots of portfolio website
+---
+### Screenshots
 
 ![Home page](./docs/website_sreenshots/broswer_1.JPG)
 
@@ -165,7 +169,9 @@ Trello board for this site can be found here: [Portfolio Website - Project Manag
 
 ![Blog](./docs/website_sreenshots/broswer_5.JPG)
 
-### Target audience
+---
+
+### Target Audience
 - Potential employers and recruiting agencies
 - Educators and cohorts
 - Family and friends
@@ -180,7 +186,7 @@ Trello board for this site can be found here: [Portfolio Website - Project Manag
 
 ------
 
-## <u>Future improvements</u>
+### Future Improvements
 - Adding an education history section
 - Designing personal logo to achieve a better personal branding effect
 
